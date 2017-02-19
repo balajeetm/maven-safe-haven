@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Basics -->
+	<groupId>com.balajeetm.wtf.unjargon</groupId>
+	<artifactId>maven-safe-haven</artifactId>
+	<version>0.0.1</version>
+	<packaging>pom</packaging>
+
+	<name>maven-safe-haven</name>
+	<description>Unjargon Tutotial for Maven</description>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.1.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+
+	<modules>
+		<module>lib-b</module>
+		<module>lib-a</module>
+	</modules>
+
+	<!-- Build Settings -->
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<!-- Project Information -->
+	<url>http://github.balajeetm.com/maven-safe-haven</url>
+	<inceptionYear>2017</inceptionYear>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>balajeetm</id>
+			<name>Balajee Mohan</name>
+			<email>balajee.tm@gmail.com</email>
+			<url>https://github.com/balajeetm</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<!-- Environment Settings -->
+	<scm>
+		<connection>scm:git:git@github.com:balajeetm/maven-safe-haven.git</connection>
+		<developerConnection>scm:git:git@github.com:balajeetm/maven-safe-haven.git</developerConnection>
+		<url>http://github.balajeetm.com/maven-safe-haven</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>bala_repo</id>
+			<url>https://oss.sonatype.org/content/groups/public/com/balajeetm/</url>
+		</repository>
+	</repositories>
+
+</project>

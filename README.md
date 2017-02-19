@@ -57,5 +57,5 @@ You can observe that there are 2 versions of [guava](https://github.com/google/g
 
 ![guava](/assets/guava.png)
 
-That's all folks! Have fun unjargoning !!!
-![Unjargon](/assets/no-jargon.png)
+That's all folks! Have fun unjargoning !!!<br>
+<img src="/assets/no-jargon.png" alt="Unjargon" style="max-width: 10%" />

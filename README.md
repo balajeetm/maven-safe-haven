@@ -42,12 +42,20 @@ The dependency Hierarchy Tab will be as below. The left pane shows the dependenc
 * **Step 4**<br>
 On the top right corner, type lib-b in the filter checkbox. You will see the tab updated as below. This is straight forward. No magic here. There is only one version lib-b, so the version 0.0.1 is shown
 
-![lib-a](/assets/lib-a.png)
+![lib-b](/assets/lib-b.png)
 
 * **Step5**
-Now filter for gson-utils. The dependency tab will be updated as below
+Now filter for [gson-utils](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.balajeetm.mystique%22%20AND%20a%3A%22gson-utils%22). The dependency tab will be updated as below.<br>
+You can observe that there are 2 versions of [gson-utils](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.balajeetm.mystique%22%20AND%20a%3A%22gson-utils%22) available - 2.0.0 and 2.0.3. However, recollect our discussion on the [blog](http://blog.balajeetm.com/blog/2017/02/17/maven-safe-haven/) again. Maven uses the 'nearest-wins' startegy. Thus the lower version 2.0.0 is through instead on 2.0.3
 
 ![gson-utils](/assets/gson-utils.png)
 
+* **Step6**
+Now filter for [guava](https://github.com/google/guava).
+The dependency tab will be updated as below.<br>
+You can observe that there are 2 versions of [guava](https://github.com/google/guava) as well. But this time both versions are equidistant. Thus maven uses the "highest-version-wins" startegy and thus guava 19.0 is through
 
-Basic maven tutorial - http://blog.balajeetm.com/blog/2017/02/17/maven-safe-haven/
+![guava](/assets/guava.png)
+
+That's all folks! Have fun unjargoning !!!
+![Unjargon](/assets/no-jargon.png)

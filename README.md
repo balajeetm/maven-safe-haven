@@ -1,7 +1,7 @@
 # maven-safe-haven
 
 Hi Unjars (short for unjargoners),<br>
-Hopefully, you are coming over from my blog post on [Why Maven?](http://blog.balajeetm.com/blog/2017/02/14/why-maven/) and [Maven-Safe-Haven](http://blog.balajeetm.com/blog/2017/02/17/maven-safe-haven/). If not, do visit them and get back here so you can easily connect the dots.
+Hopefully, you are coming over from my blog post on [WTF in Maven?](http://blog.balajeetm.com/blog/2017/02/14/wtf-in-maven/) and [Maven-Safe-Haven](http://blog.balajeetm.com/blog/2017/02/17/maven-safe-haven/). If not, do visit them and get back here so you can easily connect the dots.
 
 In this sample project I've created a project structure as below
 
